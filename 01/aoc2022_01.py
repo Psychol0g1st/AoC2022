@@ -1,7 +1,7 @@
 def max_calory(calories):
     print("The maximum caloris: ", max(calories))
 
-def top_3_valories_sum(calories):
+def top_3_calories_sum(calories):
     top3 = sorted(calories)[-3:]
     print("The sum of top 3 calory: " + str(sum(top3)))
 
@@ -22,7 +22,7 @@ def main():
         print(calories)
     ####################################
     max_calory(calories)
-    top_3_valories_sum(calories)
+    top_3_calories_sum(calories)
 
 if(__name__ == "__main__"):
     main()
